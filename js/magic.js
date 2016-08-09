@@ -5,8 +5,9 @@ $(function() {
   });
 
   $("#strip1").hover(function(){
-    $('.hidden-strip', this).fadeToggle();
-    $('.shown-strip', this).fadeToggle();
+    $('.shown-strip').fadeToggle(0,function(){
+      $('.hidden-strip').fadeToggle();
+    });
 
   });
 
@@ -14,7 +15,7 @@ $(function() {
    $("body").toggleClass("shaded-background");
   });
 
-  $("#strip2").hover(function() {
+  $(".strip").hover(function() {
     $(this).toggleClass("highlighter");
   });
 

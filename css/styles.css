@@ -14,14 +14,22 @@ body {
   text-align: center;
 }
 
-.strip img {
-  text-align: center;
+#flashcards {
+  height: 650px;
 }
 
+.strip img {
+  text-align: center;
+  /*padding-top: 300px;*/
+}
+
+.strip {
+  height: 200%;
+  margin: 2px;
+}
 
 .hidden-strip {
   display: none;
-  z-index: 2;
 }
 
 .shown-strip {
@@ -38,7 +46,8 @@ body {
 }
 
 .highlighter {
-  border-left: 2px solid;
-  border-right: 2px solid;
-  border-bottom: 2px solid;
+  background-color: grey;
+  color: white;
+  border: 2px solid;
+  margin: 0px;
 }
