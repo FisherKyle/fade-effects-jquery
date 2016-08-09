@@ -14,4 +14,11 @@ $(function() {
    $("body").toggleClass("shaded-background");
   });
 
+  $("#strip2").hover(function() {
+    $(this).toggleClass("highlighter");
+  });
+
+
+
+
 });
