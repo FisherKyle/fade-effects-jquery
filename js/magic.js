@@ -5,9 +5,13 @@ $(function() {
   });
 
   $("#strip1").hover(function(){
-    $('.hidden-strip', this).Toggle();
-    $('.shown-strip', this).fadeIn();
+    $('.hidden-strip', this).fadeToggle();
+    $('.shown-strip', this).fadeToggle();
 
+  });
+
+  $("#fire").click(function() {
+   $("body").toggleClass("shaded-background");
   });
 
 });

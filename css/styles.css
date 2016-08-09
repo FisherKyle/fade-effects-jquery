@@ -17,6 +17,21 @@ body {
   text-align: center;
 }
 
+
 .hidden-strip {
   display: none;
+  z-index: 2;
+}
+
+.shown-strip {
+  z-index: 1;
+}
+
+#fire {
+  margin-top: 30px;
+}
+
+.shaded-background {
+  background-color: #29293d;
+  color: #f0f0f5;
 }
