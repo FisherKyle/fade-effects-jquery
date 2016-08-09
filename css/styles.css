@@ -1,0 +1,22 @@
+body {
+  max-width: 1000px;
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+  max-width: 1000px;
+  text-align: center;
+}
+
+#splash {
+  text-align: center;
+}
+
+.strip img {
+  text-align: center;
+}
+
+.hidden-strip {
+  display: none;
+}
